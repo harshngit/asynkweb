@@ -34,16 +34,16 @@ const Header = () => {
                     </a>
                     <ul className="submenu">
                       <li>
-                        <Link href="website-development">Website Development</Link>
+                        <Link href="/website-development">Website Development</Link>
                       </li>
                       <li>
-                        <Link href="app-development">App Development</Link>
+                        <Link href="/app-development">App Development</Link>
                       </li>
                       <li>
-                        <Link href="360deg-marketing">Digital Marketing</Link>
+                        <Link href="/360deg-marketing">Digital Marketing</Link>
                       </li>
                       <li>
-                        <Link href="ai">AI/ML</Link>
+                        <Link href="/ai">AI/ML</Link>
                       </li>
                     </ul>
                   </li>
@@ -116,16 +116,16 @@ const Header = () => {
                     <a href="#">Service</a>
                     <ul className="submenu">
                       <li>
-                        <Link href="website-development">Website Development</Link>
+                        <Link href="/website-development">Website Development</Link>
                       </li>
                       <li>
-                        <Link href="app-development">App Development</Link>
+                        <Link href="/app-development">App Development</Link>
                       </li>
                       <li>
-                        <Link href="360deg-marketing">Digital Marketing</Link>
+                        <Link href="/360deg-marketing">Digital Marketing</Link>
                       </li>
                       <li>
-                        <Link href="ai">AI/ML</Link>
+                        <Link href="/ai">AI/ML</Link>
                       </li>
                     </ul>
                   </li>

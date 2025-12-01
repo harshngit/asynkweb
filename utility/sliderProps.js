@@ -50,4 +50,32 @@ export const sliderProps = {
       },
     ],
   },
+  portfolio: {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: false,
+    arrows: true,
+    nextArrow: <Arrow icon="fa-light fa-chevron-right nextArrow" />,
+    prevArrow: <Arrow icon="fa-light fa-chevron-left prevArrow" />,
+    centerMode: false,
+    variableWidth: false,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
+    ],
+  },
 };

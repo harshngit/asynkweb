@@ -15,8 +15,7 @@ const Footer = () => {
                 />
               </Link>
               <p>
-                Qorem ipsum dolor sit amet, consectetur adipiscing elit aut elit
-                tellus luctus nec ulla corper mattis aulvinar daibus leo.
+                Leading digital agency specializing in website development, mobile apps, digital marketing, and AI/ML solutions. Transforming businesses through innovative technology and creative solutions.
               </p>
               <ul className="d-flex flex-wrap">
                 <li>
@@ -54,55 +53,79 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="portfolio"
+                  href="/about_us"
                   className="text_hover_animaiton text_hover_type_2"
                 >
-                  Portfolio
+                  About
                 </Link>
               </li>
               <li>
                 <Link
-                  href="services"
+                  href="#"
                   className="text_hover_animaiton text_hover_type_2"
                 >
-                  Services
+                  Service
                 </Link>
               </li>
               <li>
                 <Link
-                  href="contact"
+                  href="/contact"
                   className="text_hover_animaiton text_hover_type_2"
                 >
                   Contact
                 </Link>
               </li>
+            </ul>
+          </div>
+          <div className="col-xl-2 col-sm-3 col-md-6 col-lg-2">
+            <ul className="footer_menu">
               <li>
                 <Link
-                  href="blog_grid"
+                  href="/website-development"
                   className="text_hover_animaiton text_hover_type_2"
                 >
-                  Blog
+                  Website Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/app-development"
+                  className="text_hover_animaiton text_hover_type_2"
+                >
+                  App Development
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/360deg-marketing"
+                  className="text_hover_animaiton text_hover_type_2"
+                >
+                  Digital Marketing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/ai"
+                  className="text_hover_animaiton text_hover_type_2"
+                >
+                  AI/ML
                 </Link>
               </li>
             </ul>
           </div>
-          <div className="col-xl-2 col-md-6 col-lg-3">
+          <div className="col-xl-3 col-md-6 col-lg-3">
             <div className="footer_address">
               <h3>Address</h3>
-              <p>33 Road Broklyn Street, 600 New York, USA</p>
-              <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
-            </div>
-          </div>
-          <div className="col-xl-2 col-md-6 col-lg-3">
-            <div className="footer_address">
-              <h3>Contact</h3>
               <p>
-                <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-                <a href="callto:+926668880000">+92 (666) 888 0000</a>
+                311, 3rd floor, Ghyansham Enclave,<br />
+                Lalji Pada, near Dhanukar Wadi Metro Station,<br />
+                Kandivali West, Mumbai
+              </p>
+              <p style={{ marginTop: "20px" }}>
+                <a href="mailto:work@asynk.in">work@asynk.in</a>
               </p>
               <p>
-                <a href="mailto:needhelp@company.com">youmail@company.com</a>
-                <a href="callto:+926668880000">+80 (222) 888 11110</a>
+                <a href="tel:+918928884804">+91 89288 84804</a>
               </p>
             </div>
           </div>
@@ -110,7 +133,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12">
             <div className="footer_copyright">
-              <p>Copyright © 2024 Codeefly. All rights reserved.</p>
+              <p>Copyright © 2024 Asynk. All rights reserved.</p>
             </div>
           </div>
         </div>
