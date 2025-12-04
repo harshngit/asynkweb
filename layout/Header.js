@@ -63,25 +63,23 @@ const Header = () => {
           </div>
         </div>
         <div className="mobile-menu d-xl-none main_menu d-flex">
-          <div className="container-fluid d-flex justify-content-between">
-            <div className="d-flex align-items-center justify-content-between w-100">
-              <div className="navbar-brand ms-3">
-                <Link href="index">
-                  <img
-                    src="images/Logo/logo.png"
-                    alt="Asynk -tech agency"
-                    className="img-fluid w-100"
-                  />
-                </Link>
-              </div>
-              <div className="text-end me-3">
-                <a
-                  className="menu-bar navbar-toggler"
-                  href="javascript:void(0)"
-                >
-                  <i className="fa-solid fa-bars" />
-                </a>
-              </div>
+          <div className="container-fluid d-flex justify-content-between align-items-center">
+            <div className="navbar-brand">
+              <Link href="index">
+                <img
+                  src="images/Logo/logo.png"
+                  alt="Asynk -tech agency"
+                  className="img-fluid w-100"
+                />
+              </Link>
+            </div>
+            <div className="text-end">
+              <a
+                className="menu-bar navbar-toggler"
+                href="javascript:void(0)"
+              >
+                <i className="fa-solid fa-bars" />
+              </a>
             </div>
           </div>
         </div>

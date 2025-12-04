@@ -27,13 +27,13 @@ const page = () => {
                 </h1>
               </div>
               <div className="banner_img">
-                <div className="overflow-hidden">
+                {/* <div className="overflow-hidden">
                   <img
                     src="images/banner_img_1.png"
                     alt="banner"
                     className="img-fluid w-100"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ const page = () => {
       <section className="about_us pt_120 xs_pt_70 pb_120 xs_pb_70">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-7">
+            <div className="col-lg-4 col-md-7 col-sm-12 col-12">
               <div className="about_text">
                 <div className="section_heading">
                   <h5 data-text-animation="">ABOUT COMPANY</h5>
@@ -71,7 +71,7 @@ const page = () => {
                     data-split="word"
                     data-duration={1}
                   >
-                    We are a top Digital agency in the world.
+                   Where Ideas Sync With Innovation
                   </h2>
                 </div>
                 <Link className="circle_btn" href="about_us">
@@ -79,7 +79,7 @@ const page = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-5 col-md-7">
+            <div className="col-lg-5 col-md-7 col-sm-12 col-12">
               <div className="about_img_1">
                 <div className="img">
                   <div data-animation="img-blur">
@@ -91,13 +91,11 @@ const page = () => {
                   </div>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit viverra
-                  purus senectus sapien habitant rutrum himenaeos curabitur
-                  posuere congue ac non eu odio tempor placerat id.
+                Asynk is a modern digital agency delivering powerful AI solutions, website development, and marketing strategies that help businesses grow faster. We blend creativity with cutting-edge technology to build digital experiences that drive real results.
                 </p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-5">
+            <div className="col-lg-3 col-md-5 col-sm-12 col-12">
               <div className="about_img_2">
                 <div data-animation="img-blur">
                   <img
@@ -120,19 +118,17 @@ const page = () => {
       <section className="what_we_do pt_120 xs_pt_70 pb_120 xs_pb_70">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-xl-5 col-md-7">
+            <div className="col-xl-5 col-md-7 col-sm-12 col-12">
               <div className="what_we_do_text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit eros
-                  nullam inceptos placerat aliquet taciti conubia himenaeos
-                  elementum mattis per velit eleifend ridiculus.
+                Asynk delivers smart digital solutions through Marketing, Website Development, AI/ML Development, and Mobile App Development — helping businesses grow with powerful design, intelligent automation, and modern technology.
                 </p>
                 <a className="view_btn" href="#">
                   View All Services <i className="fx-icon-next-arrow" />
                 </a>
               </div>
             </div>
-            <div className="col-xl-5 col-md-5">
+            <div className="col-xl-5 col-md-5 col-sm-12 col-12">
               <div className="section_heading">
                 <h5 data-text-animation="">WHAT WE DO</h5>
                 <h2 data-text-animation="" data-split="word">
@@ -145,92 +141,123 @@ const page = () => {
           <div className="row">
             <div className="col-12">
               <ul>
+                <Link href="/360deg-marketing">
                 <li
-                  data-animation=""
-                  className="image-view"
-                  data-img-cursor="<img src='images/what_we_do_img.jpg' />"
-                >
-                  <div className="icon">
-                    <img
-                      src="icons/ui-ux.svg"
-                      alt="about"
-                      className="img-fluid w-100 svg"
-                    />
-                  </div>
-                  <div className="text">
-                    <h3>UI/UX Design</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipiscing elit
-                      etiam accumsan, tellus viverra aliquet donec nisi
-                      vulputate erat Cursus ornare nullam scelerisque
-                      sollicitudin nisi odio sociosqu in euismod
-                    </p>
-                  </div>
-                  <div className="img">
-                    <img
-                      src="images/what_we_do_img.jpg"
-                      alt="what we do"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <a className="circle_btn" href="#">
-                    details
-                  </a>
-                </li>
-                <li
-                  data-animation=""
-                  className="image-view"
-                  data-img-cursor="<img src='images/what_we_do_img.jpg' />"
-                >
-                  <div className="icon">
-                    <img
-                      src="icons/web-programming.svg"
-                      alt="about"
-                      className="img-fluid w-100 svg"
-                    />
-                  </div>
-                  <div className="text">
-                    <h3>Web Development</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipiscing elit
-                      etiam accumsan, tellus viverra aliquet donec nisi
-                      vulputate erat Cursus ornare nullam scelerisque
-                      sollicitudin nisi odio sociosqu in euismod
-                    </p>
-                  </div>
-                </li>
-                <li
-                  data-animation=""
-                  className="image-view"
-                  data-img-cursor="<img src='images/what_we_do_img.jpg' />"
-                >
-                  <div className="icon">
-                    <img
-                      src="icons/megaphone.svg"
-                      alt="about"
-                      className="img-fluid w-100 svg"
-                    />
-                  </div>
-                  <div className="text">
-                    <h3>Digital Marketing</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipiscing elit
-                      etiam accumsan, tellus viverra aliquet donec nisi
-                      vulputate erat Cursus ornare nullam scelerisque
-                      sollicitudin nisi odio sociosqu in euismod
-                    </p>
-                  </div>
-                  <div className="img">
-                    <img
-                      src="images/what_we_do_img.jpg"
-                      alt="what we do"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <a className="circle_btn" href="#">
-                    details
-                  </a>
-                </li>
+               
+               data-animation=""
+               className="image-view"
+               data-img-cursor="<img src='images/what_we_do_img.jpg' />"
+             >
+               <div className="icon">
+                 <img
+                   src="icons/ui-ux.svg"
+                   alt="about"
+                   className="img-fluid w-100 svg"
+                 />
+               </div>
+               <div className="text">
+                 <h3>Marketing</h3>
+                 <p style={{color:"#000 !important"}}>
+                 Boost your brand with creative strategies, targeted campaigns, and performance-driven marketing that delivers real results.
+                 </p>
+               </div>
+               <div className="img">
+                 <img
+                   src="images/what_we_do_img.jpg"
+                   alt="what we do"
+                   className="img-fluid w-100"
+                 />
+               </div>
+               {/* <Link className="circle_btn" href="/360deg-marketing">
+                 details
+               </Link> */}
+             </li>
+                </Link>
+                <Link href="/website-development">
+                  <li
+                    data-animation=""
+                    className="image-view"
+                    data-img-cursor="<img src='images/what_we_do_img.jpg' />"
+                  >
+                    <div className="icon">
+                      <img
+                        src="icons/web-programming.svg"
+                        alt="about"
+                        className="img-fluid w-100 svg"
+                      />
+                    </div>
+                    <div className="text">
+                      <h3>Website Development</h3>
+                      <p style={{color:"#000 !important"}}>
+                      Modern, responsive websites designed for speed, usability, and conversions — built to represent your brand and grow your business.
+                      </p>
+                    </div>
+                    <div className="img">
+                      <img
+                        src="images/what_we_do_img.jpg"
+                        alt="what we do"
+                        className="img-fluid w-100"
+                      />
+                    </div>
+                    {/* <Link className="circle_btn" href="/website-development">
+                      details
+                    </Link> */}
+                  </li>
+                </Link>
+                <Link href="/ai">
+                  <li
+                    data-animation=""
+                    className="image-view"
+                    data-img-cursor="<img src='images/what_we_do_img.jpg' />"
+                  >
+                    <div className="icon">
+                      <i className="fa-solid fa-brain" style={{ fontSize: "50px", color: "var(--colorPrimary)" }}></i>
+                    </div>
+                    <div className="text">
+                      <h3>AI/ML Development</h3>
+                      <p style={{color:"#000 !important"}}>
+                      Smart AI solutions that automate tasks, analyze data, and enhance customer experiences with intelligent technology.
+                      </p>
+                    </div>
+                    <div className="img">
+                      <img
+                        src="images/what_we_do_img.jpg"
+                        alt="what we do"
+                        className="img-fluid w-100"
+                      />
+                    </div>
+                    {/* <Link className="circle_btn" href="/ai">
+                      details
+                    </Link> */}
+                  </li>
+                </Link>
+                <Link href="/app-development">
+                  <li
+                    data-animation=""
+                    className="image-view"
+                    data-img-cursor="<img src='images/what_we_do_img.jpg' />"
+                  >
+                    <div className="icon">
+                      <i className="fa-solid fa-mobile-screen-button" style={{ fontSize: "50px", color: "var(--colorPrimary)" }}></i>
+                    </div>
+                    <div className="text">
+                      <h3>Mobile App Development</h3>
+                      <p style={{color:"#000 !important"}}>
+                      High-performance mobile apps for Android and iOS that are fast, user-friendly, and built to scale.
+                      </p>
+                    </div>
+                    <div className="img">
+                      <img
+                        src="images/what_we_do_img.jpg"
+                        alt="what we do"
+                        className="img-fluid w-100"
+                      />
+                    </div>
+                    {/* <Link className="circle_btn" href="/app-development">
+                      details
+                    </Link> */}
+                  </li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -245,62 +272,60 @@ const page = () => {
       <section className="latest_project pt_120 xs_pt_70 pb_120 xs_pb_70">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-xl-5 col-md-6">
+            <div className="col-xl-5 col-md-6 col-sm-12 col-12">
               <div className="latest_project_text">
                 <div className="section_heading">
                   <h5>LATEST PROJECTS</h5>
                   <h2 data-text-animation="" data-split="char">
-                    Here’s our latest projects
+                    Here's our latest projects
                   </h2>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit eros
-                  nullam inceptos placerat aliquet taciti conubia himenaeos
-                  elementum mattis per velit eleifend ridiculus.
+                Our latest websites are built with speed, precision, and purpose. Designed to convert, optimized to perform, and engineered for long-term success.
                 </p>
               </div>
               <Link
-                href="portfolio_details"
+                href="https://houseofmusk.in/" 
+                target="_blank"
                 className="latest_project_img d-block cursor-arrow c-pointer"
                 data-cursor='<i class="fx-icon-long-next-arrow"></i>'
               >
                 <div data-animation="img-blur">
                   <img
-                    src="images/project_img_1.jpg"
+                    src="images/latestproject/1.webp"
                     alt="projext"
                     className="img-fluid w-100"
                   />
                 </div>
                 <div className="text d-flex flex-column">
-                  <h3>Mark Wide Website</h3>
-                  <h3>Design Project</h3>
+                  <h3>Ecommerce Website</h3>
                 </div>
               </Link>
             </div>
-            <div className="col-xl-5 col-md-6">
+            <div className="col-xl-5 col-md-6 col-sm-12 col-12">
               <Link
-                href="portfolio_details"
+              href="https://reelreports.ai/"
+              target="_blank"
                 className="latest_project_img d-block cursor-arrow latest_project_img_2 c-pointer"
                 data-cursor='<i class="fx-icon-long-next-arrow"></i>'
               >
                 <div data-animation="img-blur">
                   <img
-                    src="images/project_img_2.jpg"
+                    src="images/latestproject/2.webp"
                     alt="projext"
                     className="img-fluid w-100"
                   />
                 </div>
                 <div className="text d-flex flex-column">
-                  <h3>Mark Wide Website</h3>
-                  <h3>Design Project</h3>
+                  <h3>AI Powered Video Platform</h3>
                 </div>
               </Link>
               <h4>Want to See More Projects</h4>
             </div>
           </div>
         </div>
-        <div className="row mt_175 marquee_section">
-          <div className="col-12">
+        {/* <div className="row mt_175 marquee_section">
+          <div className="col-12 col-sm-12">
             <div className="marquee-container">
               <Marquee className="marquee_animi" direction="left">
                 <ul className="project_slider d-flex flex-wrap">
@@ -444,7 +469,7 @@ const page = () => {
               </ul>
             </Marquee>
           </div>
-        </div>
+        </div> */}
       </section>
       {/*===============================
   LATEST PROJECT END
@@ -454,62 +479,45 @@ const page = () => {
     ===============================*/}
       <section className="counter pt_120 xs_pt_70 pb_140 xs_pb_90">
         <div className="container">
-          <div className="row justify-content-between">
-            <div className="col-xl-6 col-md-6">
-              <div className="counter_img">
-                <img
-                  src="images/counter_img.png"
-                  alt="counter"
-                  className="img-fluid w-100"
-                />
+          <div className="row">
+            <div className="col-12">
+              <div className="section_heading mb-5">
+                <h5>KEY METRICS</h5>
+                <h2>Our Achievements in Numbers</h2>
               </div>
             </div>
-            <div className="col-xl-5 col-md-6">
-              <div className="row">
-                <div className="col-xl-6 col-sm-6" data-animation="fade-right">
-                  <div className="counter_item counter_item_icon">
-                    <h2 className="count">
-                      <Counter end={10} />k
-                    </h2>
-                    <p>Project completed</p>
-                  </div>
-                </div>
-                <div
-                  className="col-xl-6 col-sm-6"
-                  data-animation="fade-right"
-                  data-delay=".5"
-                >
-                  <div className="counter_item">
-                    <h2 className="count">
-                      <Counter end={180} />
-                    </h2>
-                    <p>Skilled Professional</p>
-                  </div>
-                </div>
-                <div
-                  className="col-xl-6 col-sm-6"
-                  data-animation="fade-right"
-                  data-delay=".75"
-                >
-                  <div className="counter_item">
-                    <h2 className="count">
-                      <Counter end={500} />
-                    </h2>
-                    <p>Visited Conference</p>
-                  </div>
-                </div>
-                <div
-                  className="col-xl-6 col-sm-6"
-                  data-animation="fade-right"
-                  data-delay={1}
-                >
-                  <div className="counter_item counter_item_icon">
-                    <h2 className="count">
-                      <Counter end={30} />k
-                    </h2>
-                    <p>Happy Clients</p>
-                  </div>
-                </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" data-animation="fade-right">
+              <div className="counter_item counter_item_icon">
+                <h2 className="count">
+                  <Counter end={10} />k
+                </h2>
+                <p>Project completed</p>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" data-animation="fade-right" data-delay=".5">
+              <div className="counter_item">
+                <h2 className="count">
+                  <Counter end={180} />
+                </h2>
+                <p>Skilled Professional</p>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" data-animation="fade-right" data-delay=".75">
+              <div className="counter_item">
+                <h2 className="count">
+                  <Counter end={500} />
+                </h2>
+                <p>Visited Conference</p>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" data-animation="fade-right" data-delay={1}>
+              <div className="counter_item counter_item_icon">
+                <h2 className="count">
+                  <Counter end={30} />k
+                </h2>
+                <p>Happy Clients</p>
               </div>
             </div>
           </div>
@@ -521,10 +529,10 @@ const page = () => {
       {/*===============================
   ACHIVEMENT START
     ===============================*/}
-      <section className="achivement pt_100 xs_pt_50 pb_120 xs_pb_70">
+      {/* <section className="achivement pt_100 xs_pt_50 pb_120 xs_pb_70">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-xl-5 col-lg-6">
+            <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="section_heading">
                 <h5>ACHIVEMENTS</h5>
                 <h2 data-text-animation="" data-split="word">
@@ -532,7 +540,7 @@ const page = () => {
                 </h2>
               </div>
             </div>
-            <div className="col-xl-5 col-lg-6">
+            <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="achivement_right_text">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit viverra
@@ -543,7 +551,7 @@ const page = () => {
             </div>
           </div>
           <div className="row justify-content-between mt_50">
-            <div className="col-xxl-3 col-md-6 col-lg-4 col-xl-4">
+            <div className="col-xxl-3 col-md-6 col-lg-4 col-xl-4 col-sm-12 col-12">
               <div className="achivement_img">
                 <div className="img_1">
                   <div data-animation="img-blur">
@@ -565,7 +573,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-8 col-lg-8 col-xl-8">
+            <div className="col-xxl-8 col-lg-8 col-xl-8 col-md-12 col-sm-12 col-12">
               <div className="achivement_list">
                 <ul>
                   <li data-animation="">
@@ -637,28 +645,28 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*===============================
   ACHIVEMENT END
     ===============================*/}
       {/*===============================
   TESTIMONIAL START
     ===============================*/}
-      <section className="testimonial pt_120">
+      {/* <section className="testimonial pt_120">
         <div className="container">
           <TestimonialSlider />
         </div>
-      </section>
+      </section> */}
       {/*===============================
   TESTIMONIAL END
     ===============================*/}
       {/*===============================
   BLOG START
     ===============================*/}
-      <section className="blog pt_120 xs_pt_80">
+      {/* <section className="blog pt_120 xs_pt_80">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-lg-5 col-md-8">
+            <div className="col-lg-5 col-md-8 col-sm-12 col-12">
               <div className="section_heading">
                 <h5>LATEST NEWS</h5>
                 <h2 data-text-animation="" data-split="word">
@@ -666,7 +674,7 @@ const page = () => {
                 </h2>
               </div>
             </div>
-            <div className="col-lg-7 col-md-12">
+            <div className="col-lg-7 col-md-12 col-sm-12 col-12">
               <div className="blog_right_text">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipiscing elit
@@ -681,7 +689,7 @@ const page = () => {
             </div>
           </div>
           <div className="row mt_20">
-            <div className="col-lg-4 col-md-6" data-animation="fade-left">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12" data-animation="fade-left">
               <div className="single_blog first_blog">
                 <div className="single_blog_text">
                   <ul className="d-flex flex-wrap">
@@ -710,7 +718,7 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-4 col-md-6 col-sm-12 col-12"
               data-animation="fade-left"
               data-delay=".75"
             >
@@ -742,7 +750,7 @@ const page = () => {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6"
+              className="col-lg-4 col-md-6 col-sm-12 col-12"
               data-animation="fade-left"
               data-delay={1}
             >
@@ -775,14 +783,14 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*===============================
   BLOG END
     ===============================*/}
       {/*============================
   BRAND START
     =============================*/}
-      <section className="tf__brand pt_100 xs_pt_60 pb_100 xs_pb_60">
+      {/* <section className="tf__brand pt_100 xs_pt_60 pb_100 xs_pb_60">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -847,7 +855,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*============================
   BRAND END
     =============================*/}
