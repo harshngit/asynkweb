@@ -21,9 +21,7 @@ const page = () => {
               </div>
               <div className="about_text_2">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit viverra
-                  purus senectus sapien habitant rutrum himenaeos curabitur
-                  posuere congue ac non eu odio tempor placerat id.
+                Asynk is your all-in-one tech partner. We build AI tools, websites, and marketing systems that help businesses scale without limits. Fast execution. Smart solutions. Real results.
                 </p>
                 <Link
                   className="circle_btn circle_btn_2 learn_more_2"
@@ -53,25 +51,10 @@ const page = () => {
               <div className="about_text_2_details section_heading">
                 <h5>OUR STORY</h5>
                 <p>
-                  Let our team of professionals assist you in crafting a strong
-                  brand strategy, as your brand stands as the most valuable
-                  asset for your company. Our dedicated team comprising
-                  researchers, strategists, designers, developers, and project
-                  managers excels in overcoming organizational obstacles with
-                  streamlined processes. We go beyond mere research, translating
-                  insights into innovative solutions that result in thoughtful
-                  and cohesive brands.
+                Let our team of professionals help you build a strong and future-ready brand strategy—because your brand is the most valuable asset your business owns. Our dedicated team of researchers, strategists, designers, developers, and project managers works seamlessly to break through organizational challenges with efficient, streamlined processes. We don’t just conduct research; we transform insights into meaningful, innovative solutions that shape thoughtful, cohesive, and high-impact brands.
                 </p>
                 <p>
-                  Step onto the runway with confidence by showcasing an edgy
-                  collection of dyed denim pieces, expertly curated by our team.
-                  This collection embraces the latest trend of patchwork denim,
-                  which has gained significant popularity among younger
-                  generations. By incorporating elements of sustainability,
-                  these pieces exude a sense of dimension and uniqueness, giving
-                  them a distinctive flair. Our take on grunge and streetwear
-                  pushes the boundaries of sustainable fashion, elevating it to
-                  an entirely new level.
+                Step onto the runway with confidence as you unveil a bold collection of dyed denim pieces, thoughtfully crafted by our expert team. This lineup celebrates the rising trend of patchwork denim—highly favored by today’s younger audiences—while weaving in elements of sustainability that add depth, texture, and individuality to every piece. Our refreshed take on grunge and streetwear redefines sustainable fashion, pushing creative boundaries and elevating the aesthetic to an entirely new level.
                 </p>
               </div>
             </div>
@@ -148,7 +131,7 @@ const page = () => {
       {/*============================
   TEAM START
     =============================*/}
-      <section className="tf__team tf__team_about mt_120 xs_mt_70">
+      {/* <section className="tf__team tf__team_about mt_120 xs_mt_70">
         <div className="container">
           <div className="row">
             <div className="col-xl-9 col-md-8">
@@ -223,7 +206,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*============================
   TEAM END
     =============================*/}
