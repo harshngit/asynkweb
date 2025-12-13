@@ -179,18 +179,42 @@ const Header = () => {
                     </a>
                     <ul className="submenu">
                       <li>
+                        <Link href="/ai">AI & ML</Link>
+                      </li>
+                      <li>
                         <Link href="/website-development">Website Development</Link>
                       </li>
                       <li>
-                        <Link href="/app-development">App Development</Link>
+                        <Link href="/app-development">Mobile App Development</Link>
                       </li>
                       <li>
-                        <Link href="/360deg-marketing">Digital Marketing</Link>
-                      </li>
-                      <li>
-                        <Link href="/ai">AI/ML</Link>
+                        <Link href="/360deg-marketing">Marketing</Link>
                       </li>
                     </ul>
+                  </li>
+                  <li className="dropdown-nav">
+                    <a href="#" className="text_hover_animaiton">
+                      <TextHoverAnimation text={"Solutions"} />
+                    </a>
+                    <ul className="submenu">
+                      <li>
+                        <Link href="/dental-crm">Dental CRM</Link>
+                      </li>
+                      <li>
+                        <Link href="/gym-management-system">Gym Management System</Link>
+                      </li>
+                      <li>
+                        <Link href="/society-management-system">Society Management System</Link>
+                      </li>
+                      <li>
+                        <Link href="/custom-software-development">Custom Software Development</Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link href="clients" className="text_hover_animaiton">
+                      <TextHoverAnimation text={"Clients"} />
+                    </Link>
                   </li>
                   <li>
                     <Link href="contact" className="text_hover_animaiton">
@@ -202,7 +226,7 @@ const Header = () => {
             </div>
             <div className="right_menu">
               <Link href="contact" className="common_btn">
-                Request Quote
+                Get Started
               </Link>
             </div>
           </div>
@@ -264,18 +288,43 @@ const Header = () => {
                     </a>
                     <ul className="submenu">
                       <li>
+                        <Link href="/ai">AI & ML</Link>
+                      </li>
+                      <li>
                         <Link href="/website-development">Website Development</Link>
                       </li>
                       <li>
-                        <Link href="/app-development">App Development</Link>
+                        <Link href="/app-development">Mobile App Development</Link>
                       </li>
                       <li>
-                        <Link href="/360deg-marketing">Digital Marketing</Link>
-                      </li>
-                      <li>
-                        <Link href="/ai">AI/ML</Link>
+                        <Link href="/360deg-marketing">Marketing</Link>
                       </li>
                     </ul>
+                  </li>
+                  <li className="dropdown-nav">
+                    <a href="#">
+                      Solutions
+                      <button className="dropdown-toggle-btn">
+                        <i className="fa-light fa-chevron-right" />
+                      </button>
+                    </a>
+                    <ul className="submenu">
+                      <li>
+                        <Link href="/dental-crm">Dental CRM</Link>
+                      </li>
+                      <li>
+                        <Link href="/gym-management-system">Gym Management System</Link>
+                      </li>
+                      <li>
+                        <Link href="/society-management-system">Society Management System</Link>
+                      </li>
+                      <li>
+                        <Link href="/custom-software-development">Custom Software Development</Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link href="clients">Clients</Link>
                   </li>
                   <li>
                     <Link href="contact">Contact</Link>

@@ -42,33 +42,47 @@ const page = () => {
                     <li>Email Marketing Campaigns</li>
                     <li>Brand Strategy & Positioning</li>
                   </ul>
+                  <div className="mt-4">
+                    <a href="#" className="common_btn" style={{ display: "inline-block", marginBottom: "20px" }}>
+                      <i className="fa-solid fa-download" style={{ marginRight: "8px" }}></i>
+                      Download Brochure
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-5 col-md-6">
               <form className="tf__contact_form">
                 <h3 className="mb-4">Get a Free Quote</h3>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
-                  <label>Full Name:</label>
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
+                  <label>Name:</label>
                   <input type="text" placeholder="e.g. John Doe" />
                 </div>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
                   <label>Email:</label>
                   <input type="email" placeholder="e.g. youremail@gmail.com" />
                 </div>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
-                  <label>Phone:</label>
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
+                  <label>Phone Number:</label>
                   <input type="text" placeholder="e.g. +1 234 567 8900" />
                 </div>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
-                  <label>Marketing Goals:</label>
-                  <input type="text" placeholder="e.g. Brand awareness, Lead generation" />
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
+                  <label>Type:</label>
+                  <select>
+                    <option value="">Select a service type</option>
+                    <option value="social-media">Social Media Marketing & Management</option>
+                    <option value="seo">Search Engine Optimization (SEO)</option>
+                    <option value="ppc">Pay-Per-Click Advertising (PPC)</option>
+                    <option value="content-marketing">Content Marketing & Strategy</option>
+                    <option value="email-marketing">Email Marketing Campaigns</option>
+                    <option value="brand-strategy">Brand Strategy & Positioning</option>
+                  </select>
                 </div>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
-                  <label>Message:</label>
-                  <textarea rows={4} placeholder="Tell us about your marketing needs..." defaultValue={""} />
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
+                  <label>Tell us what you want help with:</label>
+                  <textarea rows={4} placeholder="Tell us what you want help with..." defaultValue={""} />
                 </div>
-                <button className="circle_btn circle_btn_2 learn_more_2" type="submit" style={{ padding: "12px 40px", height: "auto", width: "auto" }}>
+                <button className="circle_btn circle_btn_2 learn_more_2" type="submit" style={{ padding: "12px 40px", height: "auto", width: "auto", marginTop: "10px" }}>
                   <i className="fx-icon-long-next-arrow" />
                   Send Request
                 </button>

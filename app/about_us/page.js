@@ -86,8 +86,8 @@ const page = () => {
                     className="counter_item counter_item_icon"
                     data-animation="fade-right"
                   >
-                    <h2 className="count">10</h2>
-                    <p>Project completed</p>
+                    <h2 className="count">60+</h2>
+                    <p>Websites Created</p>
                   </div>
                 </div>
                 <div className="col-xl-6 col-sm-6">
@@ -96,8 +96,8 @@ const page = () => {
                     data-animation="fade-right"
                     data-delay=".75"
                   >
-                    <h2 className="count">180</h2>
-                    <p>Skilled Professional</p>
+                    <h2 className="count">100+</h2>
+                    <p>Clients Served</p>
                   </div>
                 </div>
                 <div className="col-xl-6 col-sm-6">
@@ -106,8 +106,8 @@ const page = () => {
                     data-animation="fade-right"
                     data-delay={1}
                   >
-                    <h2 className="count">500</h2>
-                    <p>Visited Conference</p>
+                    <h2 className="count">80+</h2>
+                    <p>In-house Automations</p>
                   </div>
                 </div>
                 <div className="col-xl-6 col-sm-6">
@@ -116,8 +116,8 @@ const page = () => {
                     data-animation="fade-right"
                     data-delay="1.25"
                   >
-                    <h2 className="count">30</h2>
-                    <p>Happy Clients</p>
+                    <h2 className="count">10+</h2>
+                    <p>Proprietary Softwares</p>
                   </div>
                 </div>
               </div>

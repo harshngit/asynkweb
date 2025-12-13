@@ -43,13 +43,10 @@ const page = () => {
             <span>Follow Us</span>
           </li>
           <li>
-            <a href="#">Fb.</a>
+            <a href="https://www.instagram.com/asynk.in/">In</a>
           </li>
           <li>
-            <a href="#">Be.</a>
-          </li>
-          <li>
-            <a href="#">Yt.</a>
+            <a href="https://in.linkedin.com/company/asynk-automating-technology">Li</a>
           </li>
         </ul>
       </section>
@@ -141,37 +138,32 @@ const page = () => {
           <div className="row">
             <div className="col-12">
               <ul>
-                <Link href="/360deg-marketing">
-                <li
-               
-               data-animation=""
-               className="image-view"
-               data-img-cursor="<img src='images/what_we_do_img.jpg' />"
-             >
-               <div className="icon">
-                 <img
-                   src="icons/ui-ux.svg"
-                   alt="about"
-                   className="img-fluid w-100 svg"
-                 />
-               </div>
-               <div className="text">
-                 <h3>Marketing</h3>
-                 <p style={{color:"#000 !important"}}>
-                 Boost your brand with creative strategies, targeted campaigns, and performance-driven marketing that delivers real results.
-                 </p>
-               </div>
-               <div className="img">
-                 <img
-                   src="images/what_we_do_img.jpg"
-                   alt="what we do"
-                   className="img-fluid w-100"
-                 />
-               </div>
-               {/* <Link className="circle_btn" href="/360deg-marketing">
-                 details
-               </Link> */}
-             </li>
+                <Link href="/ai">
+                  <li
+                    data-animation=""
+                    className="image-view"
+                    data-img-cursor="<img src='images/what_we_do_img.jpg' />"
+                  >
+                    <div className="icon">
+                      <i className="fa-solid fa-brain" style={{ fontSize: "50px", color: "var(--colorPrimary)" }}></i>
+                    </div>
+                    <div className="text">
+                      <h3>AI & ML</h3>
+                      <p style={{color:"#000 !important"}}>
+                      Smart AI solutions that automate tasks, analyze data, and enhance customer experiences with intelligent technology.
+                      </p>
+                    </div>
+                    <div className="img">
+                      <img
+                        src="images/what_we_do_img.jpg"
+                        alt="what we do"
+                        className="img-fluid w-100"
+                      />
+                    </div>
+                    {/* <Link className="circle_btn" href="/ai">
+                      details
+                    </Link> */}
+                  </li>
                 </Link>
                 <Link href="/website-development">
                   <li
@@ -204,33 +196,6 @@ const page = () => {
                     </Link> */}
                   </li>
                 </Link>
-                <Link href="/ai">
-                  <li
-                    data-animation=""
-                    className="image-view"
-                    data-img-cursor="<img src='images/what_we_do_img.jpg' />"
-                  >
-                    <div className="icon">
-                      <i className="fa-solid fa-brain" style={{ fontSize: "50px", color: "var(--colorPrimary)" }}></i>
-                    </div>
-                    <div className="text">
-                      <h3>AI/ML Development</h3>
-                      <p style={{color:"#000 !important"}}>
-                      Smart AI solutions that automate tasks, analyze data, and enhance customer experiences with intelligent technology.
-                      </p>
-                    </div>
-                    <div className="img">
-                      <img
-                        src="images/what_we_do_img.jpg"
-                        alt="what we do"
-                        className="img-fluid w-100"
-                      />
-                    </div>
-                    {/* <Link className="circle_btn" href="/ai">
-                      details
-                    </Link> */}
-                  </li>
-                </Link>
                 <Link href="/app-development">
                   <li
                     data-animation=""
@@ -257,6 +222,38 @@ const page = () => {
                       details
                     </Link> */}
                   </li>
+                </Link>
+                <Link href="/360deg-marketing">
+                <li
+               
+               data-animation=""
+               className="image-view"
+               data-img-cursor="<img src='images/what_we_do_img.jpg' />"
+             >
+               <div className="icon">
+                 <img
+                   src="icons/ui-ux.svg"
+                   alt="about"
+                   className="img-fluid w-100 svg"
+                 />
+               </div>
+               <div className="text">
+                 <h3>Marketing</h3>
+                 <p style={{color:"#000 !important"}}>
+                 Boost your brand with creative strategies, targeted campaigns, and performance-driven marketing that delivers real results.
+                 </p>
+               </div>
+               <div className="img">
+                 <img
+                   src="images/what_we_do_img.jpg"
+                   alt="what we do"
+                   className="img-fluid w-100"
+                 />
+               </div>
+               {/* <Link className="circle_btn" href="/360deg-marketing">
+                 details
+               </Link> */}
+             </li>
                 </Link>
               </ul>
             </div>
@@ -491,33 +488,33 @@ const page = () => {
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" data-animation="fade-right">
               <div className="counter_item counter_item_icon">
                 <h2 className="count">
-                  <Counter end={10} />k
+                  <Counter end={60} />+
                 </h2>
-                <p>Project completed</p>
+                <p>Websites Created</p>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" data-animation="fade-right" data-delay=".5">
               <div className="counter_item">
                 <h2 className="count">
-                  <Counter end={180} />
+                  <Counter end={100} />+
                 </h2>
-                <p>Skilled Professional</p>
+                <p>Clients Served</p>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" data-animation="fade-right" data-delay=".75">
               <div className="counter_item">
                 <h2 className="count">
-                  <Counter end={500} />
+                  <Counter end={80} />+
                 </h2>
-                <p>Visited Conference</p>
+                <p>In-house Automations</p>
               </div>
             </div>
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12" data-animation="fade-right" data-delay={1}>
               <div className="counter_item counter_item_icon">
                 <h2 className="count">
-                  <Counter end={30} />k
+                  <Counter end={10} />+
                 </h2>
-                <p>Happy Clients</p>
+                <p>Proprietary Softwares</p>
               </div>
             </div>
           </div>

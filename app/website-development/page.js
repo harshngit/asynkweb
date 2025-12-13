@@ -10,12 +10,10 @@ import { sliderProps } from "@/utility/sliderProps";
 
 const page = () => {
   const workItems = [
-    { title: "E-Commerce Platform", img: "images/futured_work_img_1.jpg", category: "E-Commerce" },
-    { title: "Corporate Website", img: "images/futured_work_img_2.jpg", category: "Corporate" },
-    { title: "SaaS Dashboard", img: "images/futured_work_img_3.jpg", category: "SaaS" },
-    { title: "Portfolio Website", img: "images/futured_work_img_4.jpg", category: "Portfolio" },
-    { title: "Blog Platform", img: "images/futured_work_img_5.jpg", category: "Blog" },
-    { title: "Landing Page", img: "images/futured_work_img_6.jpg", category: "Landing" },
+    { title: "Dental CRM", img: "images/futured_work_img_1.jpg", category: "CRM" },
+    { title: "Gym Management System", img: "images/futured_work_img_2.jpg", category: "Management" },
+    { title: "Society Management System", img: "images/futured_work_img_3.jpg", category: "Management" },
+    { title: "Custom Software Development", img: "images/futured_work_img_4.jpg", category: "Software" },
   ];
 
   return (
@@ -47,37 +45,50 @@ const page = () => {
                     <li>Web Performance Optimization</li>
                     <li>API Integration & Third-party Services</li>
                   </ul>
+                  <div className="mt-4">
+                    <a href="#" className="common_btn" style={{ display: "inline-block", marginBottom: "20px" }}>
+                      <i className="fa-solid fa-download" style={{ marginRight: "8px" }}></i>
+                      Download Brochure
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-5 col-md-6">
               <form className="tf__contact_form">
                 <h3 className="mb-4">Get a Free Quote</h3>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
-                  <label>Full Name:</label>
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
+                  <label>Name:</label>
                   <input type="text" placeholder="e.g. John Doe" />
                 </div>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
                   <label>Email:</label>
                   <input type="email" placeholder="e.g. youremail@gmail.com" />
                 </div>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
-                  <label>Phone:</label>
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
+                  <label>Phone Number:</label>
                   <input type="text" placeholder="e.g. +1 234 567 8900" />
                 </div>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
-                  <label>Project Type:</label>
-                  <input type="text" placeholder="e.g. E-commerce Website" />
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
+                  <label>Type:</label>
+                  <select>
+                    <option value="">Select a service type</option>
+                    <option value="ui-ux-design">UI/UX Design</option>
+                    <option value="landing-page">Landing Page Development</option>
+                    <option value="shopify">Shopify Development</option>
+                    <option value="wordpress">WordPress Development</option>
+                    <option value="webflow">Webflow Development</option>
+                  </select>
                 </div>
-                <div className="tf__contact_form_imput" style={{ marginBottom: "30px" }}>
-                  <label>Message:</label>
+                <div className="tf__contact_form_imput" style={{ marginBottom: "15px" }}>
+                  <label>Tell us what you want help with:</label>
                   <textarea
                     rows={4}
-                    placeholder="Tell us about your project..."
+                    placeholder="Tell us what you want help with..."
                     defaultValue={""}
                   />
                 </div>
-                <button className="circle_btn circle_btn_2 learn_more_2" type="submit" style={{ padding: "12px 40px", height: "auto", width: "auto" }}>
+                <button className="circle_btn circle_btn_2 learn_more_2" type="submit" style={{ padding: "12px 40px", height: "auto", width: "auto", marginTop: "10px" }}>
                   <i className="fx-icon-long-next-arrow" />
                   Send Request
                 </button>
@@ -216,7 +227,7 @@ const page = () => {
               <ul className="what_we_do_list">
                 <li data-animation="" className="image-view">
                   <div className="icon">
-                    <img src="icons/ui-ux.svg" alt="UI/UX Design" className="img-fluid w-100 svg" />
+                    <i className="fa-solid fa-palette" style={{ fontSize: "50px", color: "var(--colorPrimary)" }}></i>
                   </div>
                   <div className="text">
                     <h3>UI/UX Design</h3>
